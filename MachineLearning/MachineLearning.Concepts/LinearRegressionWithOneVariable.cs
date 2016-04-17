@@ -63,5 +63,16 @@ namespace MachineLearning.Concepts
             return CostFunction(m,0, theta1);
         }
 
+        /// <summary>
+        /// the whole point of doing this is to minimize J
+        /// if you picked many valus for theta1 and ploted J(theta1) on a graph
+        /// you would see the resulting graph be a reverse bell curve, a V
+        /// the lowest point of the V is what represents the minimized value
+        /// </summary>
+        void Minimize()
+        {
+
+        }
+
     }
 }
